@@ -1,0 +1,53 @@
+body{
+    background-color: cornflowerblue;
+}
+h1,h2{
+    color: greenyellow;
+}
+h1:hover{
+    color:orangered;
+    margin-left: 300px;
+}
+h1::before{
+    content: url("../images/download.jpg");
+}
+h1::after{
+    content: url("../images/2.jpg");
+}
+.firstP:first-letter{
+    font-size: 100px;
+    color: crimson;
+    font-style: italic;
+}
+span{
+    font-style: italic;
+    font-size: 100px;
+    color: orange;
+
+}
+.firstInput:focus{
+    background-color: orangered;
+
+}
+.secondInput:focus{
+    background-color:transparent;
+
+}
+
+.inputBox{
+    text-align: center;
+}
+
+.text p:nth-child(3){
+    background-color: greenyellow;
+}
+.text p:last-child{
+    background-color: green;
+}
+
+.text p:nth-last-child(2){
+    background-color: blue;
+}
+.text p:nth-child(5){
+    background-color: #ffffff;
+}
